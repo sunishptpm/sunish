@@ -8,13 +8,14 @@ function Contact() {
       </h2>
       <ul>
         <li className="transition transform hover:scale-105 hover:bg-blue-100 p-2 rounded">
-          Email: example@example.com
+          Email: sunishptpm@gmail.com
         </li>
         <li className="transition transform hover:scale-105 hover:bg-blue-100 p-2 rounded">
-          Phone: +1 (555) 555-5555
+          Phone: +91 8848246674
         </li>
         <li className="transition transform hover:scale-105 hover:bg-blue-100 p-2 rounded">
-          LinkedIn: linkedin.com/in/example
+          LinkedIn:
+          https://www.linkedin.com/in/sunish-sudharsanan-b0b1ab121?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
         </li>
       </ul>
     </section>
