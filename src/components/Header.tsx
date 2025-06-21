@@ -8,14 +8,14 @@ function Header() {
       style={{
         backgroundImage: `url('${
           import.meta.env.BASE_URL
-        }backgroundimage.png')`,
+        }/sunish/backgroundimage.png')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
       {/* Profile Image */}
       <img
-        src={`${import.meta.env.BASE_URL}passport.jpeg`}
+        src={`${import.meta.env.BASE_URL}/sunish/passport.jpeg`}
         alt="Profile"
         className="absolute top-5 right-5 w-28 h-28 rounded-full border-4 border-white shadow-md hover:scale-105 transition-transform duration-300 z-[50]"
       />
