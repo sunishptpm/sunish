@@ -6,11 +6,13 @@ import Education from "./components/Education";
 import Contact from "./components/Contact";
 
 function App() {
+  const baseUrl = import.meta.env.BASE_URL;
+
   return (
     <div
       className="flex flex-col min-h-screen bg-gray-100 text-gray-900"
       style={{
-        backgroundImage: `url('/sunish/backgroundimage.png')`,
+        backgroundImage: `url('${baseUrl}backgroundimage.png')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -20,13 +22,13 @@ function App() {
         <header
           className="relative w-full mb-10 p-5 rounded shadow-md text-gray-50 transform transition hover:scale-105 hover:bg-blue-600"
           style={{
-            backgroundImage: `url('/sunish/backgroundimage.png')`,
+            backgroundImage: `url('${baseUrl}backgroundimage.png')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
         >
           <img
-            src="/sunish/passport.jpeg"
+            src={`${baseUrl}passport.jpeg`}
             alt="Profile"
             className="absolute top-5 right-5 w-28 sm:w-32 h-28 sm:h-32 rounded-full border-4 border-white shadow-lg hover:scale-105 transition-transform duration-700 ease-in-out animate-fade-in z-[10]"
           />
@@ -37,7 +39,7 @@ function App() {
               "Striving for excellence in everything I do"
             </blockquote>
             <a
-              href="/sunish/Resume_Sunish.pdf"
+              href={`${baseUrl}Resume_Sunish.pdf`}
               download
               className="inline-block mt-4 px-4 py-2 bg-white text-blue-600 font-semibold rounded shadow hover:bg-blue-100 transition"
             >
