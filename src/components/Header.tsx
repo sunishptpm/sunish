@@ -29,7 +29,7 @@ function Header() {
 
         {/* Resume Download Button */}
         <a
-          href={`${import.meta.env.BASE_URL}Resume_Sunish.pdf`}
+          href={`${import.meta.env.BASE_URL}/sunish/Resume_Sunish.pdf`}
           download
           className="inline-block mt-4 px-4 py-2 bg-white text-blue-600 font-semibold rounded shadow hover:bg-blue-100 transition"
         >
