@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react'
 
 // Replace 'sunish' with the actual repository name if different
 export default defineConfig({
-  base: '/sunish/',
+  base: '/',
   plugins: [react()],
 })
